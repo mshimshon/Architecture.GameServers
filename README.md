@@ -93,6 +93,3 @@
 - [ ] Validate workers use SSH keys/certificates exclusively
 - [ ] Final security audit (permissions, ACL, SSH)
 
----
-
-# Total Timeline: 8 Weeks
