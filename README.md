@@ -1,6 +1,6 @@
 # Project Checklist
 
-## 1. Core Infrastructure Setup (1 week)
+## 1. Core Infrastructure Setup
 
 - [ ] Configure Proxmox API access (tokens + roles)
 - [ ] Test `pct create` workflow
@@ -12,7 +12,7 @@
 
 ---
 
-## 2. GSM Game Module Development (1 week)
+## 2. GSM Game Module Development
 
 - [ ] Create GSM module base folder structure
 - [ ] Implement `install.sh` template
@@ -25,7 +25,7 @@
 
 ---
 
-## 3. Webmin GSM Control Module (2 weeks)
+## 3. Webmin GSM Control Module
 
 - [ ] Create Webmin module directory structure
 - [ ] Implement `index.cgi` (dashboard)
@@ -38,7 +38,7 @@
 
 ---
 
-## 4. Strapi Backend Setup (1 week)
+## 4. Strapi Backend Setup
 
 - [ ] Create Strapi Collections: Client, Game, GameServer
 - [ ] Add fields: ip_address, ports, status, container_id, webmin_url
@@ -50,7 +50,7 @@
 
 ---
 
-## 5. Provisioning Worker (2 weeks)
+## 5. Provisioning Worker
 
 - [ ] Implement Strapi → Worker event receiver
 - [ ] Add Proxmox API “create container” logic
@@ -69,7 +69,7 @@
 
 ---
 
-## 6. Integration Testing (1 week)
+## 6. Integration Testing
 
 - [ ] Test full workflow: Strapi → Worker → Proxmox → Webmin
 - [ ] Test multi-game install support
@@ -82,7 +82,7 @@
 
 ---
 
-## 7. Deployment + Hardening (1 week)
+## 7. Deployment + Hardening
 
 - [ ] Connect port registry system with Proxmox firewall rules
 - [ ] Implement nightly backup job (game data + configs)
